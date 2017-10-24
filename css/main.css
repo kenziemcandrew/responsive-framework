@@ -82,28 +82,40 @@
 	width: 20%;
 }
 
+.col-1-6 {
+	width: 16.66%;
+}
+
 .col-1-7 {
 	width: 14.28%;
+}
+
+.col-1-8 {
+	width: 12.5%;
+}
+
+.col-1-9 {
+	width: 11.11%;
 }
 
 .col-1-10 {
 	width: 10%;
 }
 
-.col-2-2 {
-	width: 90%;
+.col-1-11 {
+	width: 9.09%;
 }
 
-.col-2-3 {
-	width: 33.33%;
+.col-1-12 {
+	width: 8.33%;
 }
 
-.col-2-4 {
-	width: 22.22%;
+.col-2-5 {
+	width: 40%;
 }
 
-.col-3-2 {
-	width: 10%;
+.col-5-6 {
+	width: 83.34%;
 }
 
 .col-3-4 {
@@ -114,12 +126,24 @@
 	width: 25%;
 }
 
-.col-3-5 {
-	width: 46.67%;
+.col-3-7 {
+	width: 42.86%;
 }
 
-.col-3-6 {
-	width: 32.78%;
+.col-7-8 {
+	width: 87.5%;
+}
+
+.col-4-9 {
+	width: 44.44%;
+}
+
+.col-9-10 {
+	width: 90%;
+}
+
+.col-5-11 {
+	width: 45.455%;
 }
 
 /* 6.0 Responsive Media Section */
@@ -130,7 +154,7 @@
 /* 6.1 Medium Display */
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 	.wrapper {
 		width: 90%;
 	}
@@ -144,20 +168,12 @@
 		width: 20%;
 	}
 
-	.col-3-5 {
-		width: 46%;
-	}
-
-	.col-3-6 {
-	width: 7%;
-}
-
 }
 
 
 /* 6.2 Small Display */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
 	.wrapper {
 		width: 95%;
 	}
